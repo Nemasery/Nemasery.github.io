@@ -5,7 +5,7 @@ header-img: img/home-bg.jpg
 email: ljh347467356@gmail.com
 description: "Hey"
 keyword: "Deep Learning  Computer Vision  Nature Language Processing"
-#url: "https://huangxuan.me"              # your host, for absolute URL
+url: "https://nemasery.github.io"              # your host, for absolute URL
 baseurl: ""                             # for example, '/blog' if your blog hosted on 'host/blog'
 
 imglogo:
@@ -20,7 +20,7 @@ RSS: false
 #weibo_username:     huxpro
 github_username:    nemasery
 zhihu_username:     nemasery
-gmail_username:  ljh347467356
+Google_username:  ljh347467356
 #twitter_username:   huxpro
 facebook_username:  nemasery
 #linkedin_username:  firstname-lastname-idxxxx
