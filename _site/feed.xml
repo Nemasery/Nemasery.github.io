@@ -2,550 +2,91 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Jhliu Blog</title>
-    <description>关于程序与设计、黑客与画家 | 黄玄，Web &amp; Mobile Lover，Software Engineer，UX Designer | 这里是 @Hux黄玄 的个人博客，与你一起发现更大的世界。</description>
+    <description>Hey</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Sat, 20 Jul 2019 15:04:46 +0800</pubDate>
-    <lastBuildDate>Sat, 20 Jul 2019 15:04:46 +0800</lastBuildDate>
+    <pubDate>Sat, 20 Jul 2019 17:36:07 +0800</pubDate>
+    <lastBuildDate>Sat, 20 Jul 2019 17:36:07 +0800</lastBuildDate>
     <generator>Jekyll v3.8.6</generator>
     
       <item>
-        <title>Vim 与中文输入法</title>
-        <description>&lt;p&gt;Update: 我最后还是放弃在 Vim 模式下输入中文了，mental model 的 cost 太重了（&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;我相信很多中文世界的 Vimer 都遇到过这个烦恼，在 vim 的 insert 模式时可能突然想输个中文，输完之后会本能的直接 &lt;code class=&quot;highlighter-rouge&quot;&gt;esc&lt;/code&gt; 接 normal 模式操作，结果发现跳出来的是中文输入法……对于 vscode，我一般会在几次错误之后被逼到退出 vscode vim 模式，而对于终端中用的 neovim，就只能尽量不输入中文了。&lt;/p&gt;
-
-&lt;p&gt;为了满足我 1% 用 vim 输入中文的场景（比如写博客），我还是想看看有没有什么解决方案，Google 出来的解决方案基本是：&lt;em&gt;在退出 insert 模式时记住当时的输入法，并自动切换到默认输入法（一般是英文）给 normal 模式用，并且在下一次进入 insert 模式时再切换回来。&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;原生 vim 的话，可以使用 &lt;a href=&quot;https://github.com/ybian/smartim&quot;&gt;smartim&lt;/a&gt; 插件，原理是调用 &lt;a href=&quot;https://github.com/daipeihust/im-select&quot;&gt;im-select&lt;/a&gt; 这个 CLI 工具来切换输入法。&lt;/p&gt;
-
-&lt;p&gt;对于 VSCode-vim 的话，smartim 的移植也在近期的 PR 中被 merge 到了插件里，&lt;a href=&quot;https://github.com/VSCodeVim/Vim#use-im-select&quot;&gt;详情见文档的这部分配置&lt;/a&gt;，需要指定一下默认输入法和 im-select 的 binary 路径就好。&lt;/p&gt;
-
-&lt;hr /&gt;
-&lt;p&gt;
-不过实话说，在 vim 中编辑中文的效率和体验和英文比都是大打折扣的。因为中文分词难度太高，不像英文可以简单依靠一个 &lt;code class=&quot;highlighter-rouge&quot;&gt;split &quot; &quot;&lt;/code&gt; 搞定。所以其实无论 vim（&lt;code class=&quot;highlighter-rouge&quot;&gt;w&lt;/code&gt;ord，&lt;code class=&quot;highlighter-rouge&quot;&gt;b&lt;/code&gt;egin，&lt;code class=&quot;highlighter-rouge&quot;&gt;e&lt;/code&gt;nd），emacs 还是操作系统自带的（比如 macOS 中的 &lt;code class=&quot;highlighter-rouge&quot;&gt;alt + 箭头&lt;/code&gt;） 「按词移动」功能对于中文都仅仅是跳转到下一个空格处而已，对于中文来说基本就是下一句了……其他常用操作诸如 &lt;code class=&quot;highlighter-rouge&quot;&gt;f&lt;/code&gt;，&lt;code class=&quot;highlighter-rouge&quot;&gt;/&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;r&lt;/code&gt;eplace, &lt;code class=&quot;highlighter-rouge&quot;&gt;t&lt;/code&gt;ill 也都无法很好的工作。&lt;/p&gt;
-
-&lt;p&gt;不过也算聊胜于无吧，由于我常用 HHKB，能用 vim 操作的一个子集（&lt;code class=&quot;highlighter-rouge&quot;&gt;hjkl&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;o&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;A&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;I&lt;/code&gt;, &lt;code class=&quot;highlighter-rouge&quot;&gt;v&lt;/code&gt; etc.）可能也比按住 &lt;code class=&quot;highlighter-rouge&quot;&gt;Fn&lt;/code&gt; 的方向键好用……&lt;/p&gt;
-</description>
-        <pubDate>Sat, 06 Oct 2018 00:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2018/10/06/vim-cn-im/</link>
-        <guid isPermaLink="true">http://localhost:4000/2018/10/06/vim-cn-im/</guid>
-        
-        <category>Vim</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>Hello 2015</title>
+        <title>Hello 2019</title>
         <description>&lt;blockquote&gt;
   &lt;p&gt;“Yeah It’s on. ”&lt;/p&gt;
 &lt;/blockquote&gt;
 
-&lt;h2 id=&quot;前言&quot;&gt;前言&lt;/h2&gt;
+&lt;h1 id=&quot;前言&quot;&gt;前言&lt;/h1&gt;
 
-&lt;p&gt;Hux 的 Blog 就这么开通了。&lt;/p&gt;
+&lt;p&gt;Jhliu 的 Blog 就这么开通了。&lt;/p&gt;
 
-&lt;p&gt;&lt;a href=&quot;#build&quot;&gt;跳过废话，直接看技术实现 &lt;/a&gt;&lt;/p&gt;
+&lt;!-- [跳过废话，直接看技术实现 ](#build) 
 
-&lt;p&gt;2015 年，Hux 总算有个地方可以好好写点东西了。&lt;/p&gt;
 
-&lt;p&gt;作为一个程序员， Blog 这种轮子要是挂在大众博客程序上就太没意思了。一是觉得大部分 Blog 服务都太丑，二是觉得不能随便定制不好玩。之前因为太懒没有折腾，结果就一直连个写 Blog 的地儿都没有。&lt;/p&gt;
 
-&lt;p&gt;在玩了一段时间知乎之后，答题的快感又激起了我开博客的冲动。之前的&lt;a href=&quot;http://huangxuan.me/portfolio&quot;&gt;个人网站&lt;/a&gt;是作品集形式的（现在集成进来了），并不适合用来写博文，一不做二不休，花一天搞一个吧！&lt;/p&gt;
+2015 年，Hux 总算有个地方可以好好写点东西了。
 
-&lt;p id=&quot;build&quot;&gt;&lt;/p&gt;
-&lt;hr /&gt;
 
-&lt;h2 id=&quot;正文&quot;&gt;正文&lt;/h2&gt;
+作为一个程序员， Blog 这种轮子要是挂在大众博客程序上就太没意思了。一是觉得大部分 Blog 服务都太丑，二是觉得不能随便定制不好玩。之前因为太懒没有折腾，结果就一直连个写 Blog 的地儿都没有。
 
-&lt;p&gt;接下来说说搭建这个博客的技术细节。&lt;/p&gt;
+在玩了一段时间知乎之后，答题的快感又激起了我开博客的冲动。之前的[个人网站](http://huangxuan.me/portfolio)是作品集形式的（现在集成进来了），并不适合用来写博文，一不做二不休，花一天搞一个吧！
 
-&lt;p&gt;正好之前就有关注过 &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub Pages&lt;/a&gt; + &lt;a href=&quot;http://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; 快速 Building Blog 的技术方案，非常轻松时尚。&lt;/p&gt;
 
-&lt;p&gt;其优点非常明显：&lt;/p&gt;
+&lt;p id = &quot;build&quot;&gt;&lt;/p&gt;
+---
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;strong&gt;Markdown&lt;/strong&gt; 带来的优雅写作体验&lt;/li&gt;
-  &lt;li&gt;非常熟悉的 Git workflow ，&lt;strong&gt;Git Commit 即 Blog Post&lt;/strong&gt;&lt;/li&gt;
-  &lt;li&gt;利用 GitHub Pages 的域名和免费无限空间，不用自己折腾主机
-    &lt;ul&gt;
-      &lt;li&gt;如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;Jekyll 的自定制非常容易，基本就是个模版引擎&lt;/li&gt;
-&lt;/ul&gt;
+## 正文
 
-&lt;p&gt;本来觉得最大的缺点可能是 GitHub 在国内访问起来太慢，所以第二天一起床就到 GitCafe(Chinese GitHub Copy，现在被 Coding 收购了) 迁移了一个&lt;a href=&quot;http://huxpro.coding.me&quot;&gt;镜像&lt;/a&gt;出来，结果还是巨慢。&lt;/p&gt;
+接下来说说搭建这个博客的技术细节。  
 
-&lt;p&gt;哥哥可是个前端好嘛！ 果断开 Chrome DevTool 查了下网络请求，原来是 &lt;strong&gt;pending 在了 Google Fonts&lt;/strong&gt; 上，页面渲染一直被阻塞到请求超时为止，难怪这么慢。&lt;br /&gt;
-忍痛割爱，只好把 Web Fonts 去了（反正超时看到的也只能是 fallback ），果然一下就正常了，而且 GitHub 和 GitCafe 对比并没有感受到明显的速度差异，虽然 github 的 ping 值明显要高一些，达到了 300ms，于是用 DNSPOD 优化了一下速度。&lt;/p&gt;
+正好之前就有关注过 [GitHub Pages](https://pages.github.com/) + [Jekyll](http://jekyllrb.com/) 快速 Building Blog 的技术方案，非常轻松时尚。
 
-&lt;hr /&gt;
+其优点非常明显：
 
-&lt;p&gt;配置的过程中也没遇到什么坑，基本就是 Git 的流程，相当顺手&lt;/p&gt;
+* **Markdown** 带来的优雅写作体验
+* 非常熟悉的 Git workflow ，**Git Commit 即 Blog Post**
+* 利用 GitHub Pages 的域名和免费无限空间，不用自己折腾主机
+	* 如果需要自定义域名，也只需要简单改改 DNS 加个 CNAME 就好了 
+* Jekyll 的自定制非常容易，基本就是个模版引擎
 
-&lt;p&gt;大的 Jekyll 主题上直接 fork 了 Clean Blog（这个主题也相当有名，就不多赘述了。唯一的缺点大概就是没有标签支持，于是我给它补上了。）&lt;/p&gt;
 
-&lt;p&gt;本地调试环境需要 &lt;code class=&quot;highlighter-rouge&quot;&gt;gem install jekyll&lt;/code&gt;，结果 rubygem 的源居然被墙了……后来手动改成了我大淘宝的镜像源才成功&lt;/p&gt;
+本来觉得最大的缺点可能是 GitHub 在国内访问起来太慢，所以第二天一起床就到 GitCafe(Chinese GitHub Copy，现在被 Coding 收购了) 迁移了一个[镜像](http://huxpro.coding.me)出来，结果还是巨慢。
 
-&lt;p&gt;Theme 的 CSS 是基于 Bootstrap 定制的，看得不爽的地方直接在 Less 里改就好了（平时更习惯 SCSS 些），&lt;strong&gt;不过其实我一直觉得 Bootstrap 在移动端的体验做得相当一般，比我在淘宝参与的团队 CSS 框架差多了……&lt;/strong&gt;所以为了体验，也补了不少 CSS 进去&lt;/p&gt;
+哥哥可是个前端好嘛！ 果断开 Chrome DevTool 查了下网络请求，原来是 **pending 在了 Google Fonts** 上，页面渲染一直被阻塞到请求超时为止，难怪这么慢。  
+忍痛割爱，只好把 Web Fonts 去了（反正超时看到的也只能是 fallback ），果然一下就正常了，而且 GitHub 和 GitCafe 对比并没有感受到明显的速度差异，虽然 github 的 ping 值明显要高一些，达到了 300ms，于是用 DNSPOD 优化了一下速度。
 
-&lt;p&gt;最后就进入了耗时反而最长的&lt;strong&gt;做图、写字&lt;/strong&gt;阶段，也算是进入了&lt;strong&gt;写博客&lt;/strong&gt;的正轨，因为是类似 Hack Day 的方式去搭这个站的，所以折腾折腾着大半夜就过去了。&lt;/p&gt;
 
-&lt;p&gt;第二天考虑中文字体的渲染，fork 了 &lt;a href=&quot;http://www.typeisbeautiful.com/&quot;&gt;Type is Beautiful&lt;/a&gt; 的 &lt;code class=&quot;highlighter-rouge&quot;&gt;font&lt;/code&gt; CSS，调整了字号，适配了 Win 的渣渲染，中英文混排效果好多了。&lt;/p&gt;
 
-&lt;h2 id=&quot;后记&quot;&gt;后记&lt;/h2&gt;
+---
 
-&lt;p&gt;回顾这个博客的诞生，纯粹是出于个人兴趣。在知乎相关问题上回答并获得一定的 star 后，我决定把这个博客主题当作一个小小的开源项目来维护。&lt;/p&gt;
+配置的过程中也没遇到什么坑，基本就是 Git 的流程，相当顺手
 
-&lt;p&gt;在经历 v1.0 - v1.5 的蜕变后，这个博客主题愈发完整，不但增加了诸多 UI 层的优化（opinionated）；在代码层面，更加丰富的配置项也使得这个主题拥有了更好的灵活性与可拓展性。而作为一个开源项目，我也积极的为其完善文档与解决 issue。&lt;/p&gt;
+大的 Jekyll 主题上直接 fork 了 Clean Blog（这个主题也相当有名，就不多赘述了。唯一的缺点大概就是没有标签支持，于是我给它补上了。）
 
-&lt;p&gt;如果你恰好逛到了这里，希望你也能喜欢这个博客主题。&lt;/p&gt;
+本地调试环境需要 `gem install jekyll`，结果 rubygem 的源居然被墙了……后来手动改成了我大淘宝的镜像源才成功
 
-&lt;p&gt;—— Hux 后记于 2015.10&lt;/p&gt;
+Theme 的 CSS 是基于 Bootstrap 定制的，看得不爽的地方直接在 Less 里改就好了（平时更习惯 SCSS 些），**不过其实我一直觉得 Bootstrap 在移动端的体验做得相当一般，比我在淘宝参与的团队 CSS 框架差多了……**所以为了体验，也补了不少 CSS 进去
+
+最后就进入了耗时反而最长的**做图、写字**阶段，也算是进入了**写博客**的正轨，因为是类似 Hack Day 的方式去搭这个站的，所以折腾折腾着大半夜就过去了。
+
+第二天考虑中文字体的渲染，fork 了 [Type is Beautiful](http://www.typeisbeautiful.com/) 的 `font` CSS，调整了字号，适配了 Win 的渣渲染，中英文混排效果好多了。
+
+
+## 后记
+
+回顾这个博客的诞生，纯粹是出于个人兴趣。在知乎相关问题上回答并获得一定的 star 后，我决定把这个博客主题当作一个小小的开源项目来维护。
+
+在经历 v1.0 - v1.5 的蜕变后，这个博客主题愈发完整，不但增加了诸多 UI 层的优化（opinionated）；在代码层面，更加丰富的配置项也使得这个主题拥有了更好的灵活性与可拓展性。而作为一个开源项目，我也积极的为其完善文档与解决 issue。
+
+如果你恰好逛到了这里，希望你也能喜欢这个博客主题。
+
+—— Hux 后记于 2015.10 --&gt;
 
 </description>
-        <pubDate>Thu, 29 Jan 2015 20:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2015/01/29/hello-2015/</link>
-        <guid isPermaLink="true">http://localhost:4000/2015/01/29/hello-2015/</guid>
+        <pubDate>Sat, 20 Jul 2019 00:00:00 +0800</pubDate>
+        <link>http://localhost:4000/2019/07/20/hello-2019/</link>
+        <guid isPermaLink="true">http://localhost:4000/2019/07/20/hello-2019/</guid>
         
         <category>生活</category>
-        
-        <category>Meta</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>「知乎」你们觉得响应式好呢，还是手机和PC端分开来写？</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;这篇文章转载自&lt;a href=&quot;http://www.zhihu.com/question/25836425/answer/31564174&quot;&gt;我在知乎上的回答&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div&gt;
-	&lt;p&gt;
-		&lt;b&gt;根据你的产品特点，进行两种不同的设计，&lt;/b&gt;
-	    &lt;br /&gt;&lt;b&gt;根据你的设计需求，选择合适的技术方案&lt;/b&gt;。
-    &lt;/p&gt;
-    &lt;br /&gt;&lt;b&gt;A与B不是硬币的正反面，它们为了解决同一个问题而生，它们是同一种思想的延伸。&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;blockquote&gt;移动和桌面设计的差别远不止是布局问题。只要有足够的编程量，这些差别是可以通过响应式设计来解决的。事实上，你可以认为如果一种设计不能兼顾两种平台的主要差别，就不能算是合格的响应式设计。但是，如果确实想要处理好平台间的所有差异，我们就回到了原点：进行两种不同的设计。
-        &lt;br /&gt;
-        &lt;br /&gt;——《Mobile Usability》（《贴心设计 打造高可用性的移动产品》）&lt;/blockquote&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;其实无论是什么解决方案，我们先来看看我们想要解决的问题：
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;“屏幕尺寸越来越多，不同设备的交互特质也有着巨大的差别，我们希望我们的网站能够在移动手机、平板、桌面电脑，在键鼠、触摸、无障碍设备上都有优秀的用户体验。所以，我们需要网站的用户界面在不同的平台上有所不同。”&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;那怎么做呢，一个解决方案应运而生：
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;ul&gt;
-        &lt;li&gt;&lt;b&gt;响应式设计 (Responsive Web design)&lt;/b&gt;
-        &lt;/li&gt;
-    &lt;/ul&gt;&lt;b&gt;狭义上&lt;/b&gt;，我们把&lt;b&gt;主要依靠前端 CSS&lt;/b&gt; （包括 Media Query 媒体查询，百分比流式布局，网格与Typography系统……）来对各种屏幕尺寸进行响应的做法，称之为响应式布局，又称作自适应网页设计，或者弹性设计。
-    &lt;br /&gt;
-    &lt;br /&gt;这种主要依靠CSS的方案有很多优点，比如：
-    &lt;br /&gt;
-    &lt;ul&gt;
-        &lt;ul&gt;
-            &lt;li&gt;设计元素很容易被复用，设计成本低&lt;/li&gt;
-            &lt;li&gt;前端只需要维护一套CSS代码，&lt;b&gt;维护成本&lt;/b&gt;低&lt;/li&gt;
-            &lt;li&gt;桌面端与移动端的设计十分接近，令用户感到“熟悉”&lt;/li&gt;
-            &lt;li&gt;不需要任何服务器端的支持&lt;/li&gt;
-            &lt;li&gt;与业务耦合程度低，复用程度高（ 以至于 Bootstrap、Foundation 等一干框架都跟进了这个解决方案 ）&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/ul&gt;但问题也很明显，比如：
-    &lt;br /&gt;
-    &lt;ul&gt;
-        &lt;ul&gt;
-            &lt;li&gt;设计需求复杂时，前端的&lt;b&gt;开发成本&lt;/b&gt;没有任何减轻&lt;/li&gt;
-            &lt;li&gt;无论是针对桌面还是移动的CSS代码（甚至图片资源文件）都会被同等的下载到客户端（&lt;b&gt;没有考虑移动端的网络优化&lt;/b&gt;）&lt;/li&gt;
-            &lt;li&gt;如果JS不写两套，桌面端的交互和移动端的交互很难针对平台作出差异&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/ul&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;如果&lt;b&gt;你的&lt;/b&gt;&lt;b&gt;移动用户对网站所有的功能和内容有着与桌面用户同等的需求&lt;/b&gt;，比如 新闻、报纸（媒体类）网站，或者活动、专题页等 &lt;b&gt;偏重信息传达而轻交互 &lt;/b&gt;的网站，那么这个解决方案其实恰到好处：
-    &lt;br /&gt;&lt;b&gt;触摸屏优化（胖手指）、减少次要信息…… 这些通过 CSS 解决就够了。&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;但是，如果我想要做更多的 「移动化设计」，比如 减少信息层级、增强手势操作、让网页更接近一个Native App ？&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;好吧，为了更复杂的需求，为了我们的网站能更牛逼的 &lt;b&gt;「响应」&lt;/b&gt; 各个平台，
-    &lt;br /&gt;又有了这些解决方案：
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;ul&gt;
-        &lt;li&gt;&lt;b&gt;服务器端（后端）：&lt;/b&gt;
-            &lt;br /&gt;
-        &lt;/li&gt;
-        &lt;ul&gt;
-            &lt;li&gt;RESS （Responsive Web Design with Server Side Components）通过服务器端组件的响应式网页设计&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/ul&gt;提倡 RESS 的人认为：基于前端 CSS 的响应式方案只是一种妥协：
-    &lt;br /&gt;&lt;b&gt;“ UI 只是在很被动的进行「调整」，而不能真正达到各个平台的最优。好的设计应该达到「这个设备该有的体验」（Device Experiences）。 ”&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;blockquote&gt;&lt;b&gt;Device Experiences ：&lt;/b&gt;A device experience is defined by how a device is most commonly used and the technical capabilities or limitations it possesses.&lt;/blockquote&gt;RESS 的本质还是服务器端动态的生成，返回 HTML、JS、CSS、图像等资源文件，但是只使用同一个 URL 就可以提供给移动端定制化更强的网页，同时还大大节省了网络资源。
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;ul&gt;
-        &lt;li&gt;&lt;b&gt;前端&lt;/b&gt;（主要是JS），比如：
-            &lt;br /&gt;
-        &lt;/li&gt;
-        &lt;ul&gt;
-            &lt;li&gt;在 JavaScript 中实现两套逻辑，分别兼容键鼠、触摸设备&lt;/li&gt;
-            &lt;li&gt;通过 UA、特性检测 在前端做设备判断，对资源进行异步加载，渲染不同模版&lt;/li&gt;
-            &lt;li&gt;通过 特性检测 在前端做设备判断，使用不同的业务逻辑&lt;/li&gt;
-            &lt;li&gt;前端的模块化也可以帮助解决这个问题，比如针对不同的平台加载不同的模块&lt;/li&gt;
-            &lt;li&gt;……&lt;/li&gt;
-        &lt;/ul&gt;
-    &lt;/ul&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;这下，我们的网站可以更牛逼的 &lt;b&gt;“响应”&lt;/b&gt; 各个平台了。
-    &lt;br /&gt;（对，我还是称之为响应：这的确还是在&lt;b&gt;“响应”&lt;/b&gt;啊 ，不是吗？）
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;但是等下……&lt;/b&gt;
-    &lt;br /&gt;后端开发成本上去了，前端开发成本也上去了，配合着估计产品、设计资源也都上去了，&lt;b&gt;那我们为什么不干脆把 移动设备网站 和 桌面设备网站 分开呢！？&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;是啊，如果你的需求真的都到这一步了，你的移动网站也应该可以被称作 WebApp 了。&lt;b&gt;这种时候，把移动设备网站彻底分开或许真的是更好的选择。&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;开发资源如此充足，你还可以让专门的团队来维护移动端的网站。
-    &lt;br /&gt;（嗯，BAT 就是这么干的）
-    &lt;br /&gt;
-    &lt;br /&gt;于是又一个概念来了：
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;ul&gt;
-        &lt;li&gt;&lt;b&gt;独立的移动版网站&lt;/b&gt; （按题主的话来说：手机和PC端分开来写）&lt;/li&gt;
-    &lt;/ul&gt;不过，它有那么独立么？
-    &lt;br /&gt;我们知道，我们访问网站是通过 URL 来访问的。
-    &lt;br /&gt;将移动网站 和 桌面网站 分开，如果不使用 RESS 技术，往往也就意味着要维护两个URL（不同的二级域名）
-    &lt;br /&gt;难道我们要让所有桌面用户自觉访问 &lt;a href=&quot;http://taobao.com&quot; class=&quot; external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;http://&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;taobao.com&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;&lt;/span&gt;&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt; ，所有 移动用户 都自觉访问 &lt;a href=&quot;http://m.taobao.com&quot; class=&quot; external&quot; target=&quot;_blank&quot; rel=&quot;nofollow noreferrer&quot;&gt;&lt;span class=&quot;invisible&quot;&gt;http://&lt;/span&gt;&lt;span class=&quot;visible&quot;&gt;m.taobao.com&lt;/span&gt;&lt;span class=&quot;invisible&quot;&gt;&lt;/span&gt;&lt;i class=&quot;icon-external&quot;&gt;&lt;/i&gt;&lt;/a&gt; ？
-    &lt;br /&gt;
-    &lt;br /&gt;不可能吧 ＝ ＝。
-    &lt;br /&gt;
-    &lt;br /&gt;于是，我们还是得依靠前端或服务器端的一次 &lt;b&gt;“响应”&lt;/b&gt;（设备检测），做 URL 重定向，才能将不同设备的用户带到那个为他们准备的网站。
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;所以其实在我看来，手机和PC端分开来写，只是 狭义响应式设计 的一种发展和延伸罢了。他们的界限没有，也并不需要那么清晰。&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;就如开题所引用的：
-    &lt;br /&gt;
-    &lt;blockquote&gt;&lt;b&gt;事实上，你可以认为如果一种设计不能兼顾两种平台的主要差别，就不能算是合格的响应式设计。&lt;/b&gt;
-    &lt;/blockquote&gt;&lt;b&gt;“而无论是用什么解决方案。” —— 这句是我补的。&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;故我的结论是：
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;这不是一个二选一的问题，而是选择一个合适的度&lt;/b&gt;（你的桌面版本代码与移动版本代码分离、耦合的程度）
-    &lt;br /&gt;
-    &lt;br /&gt;而这个度，则是由你的设计需求决定的。
-    &lt;br /&gt;而我们的需求原点其实也很简单：
-    &lt;br /&gt;
-    &lt;br /&gt; “&lt;b&gt;根据你的产品特点，进行两种不同的设计&lt;/b&gt;”。
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;以上。
-    &lt;br /&gt;
-    &lt;br /&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Thu, 20 Nov 2014 20:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2014/11/20/responsive-web-design/</link>
-        <guid isPermaLink="true">http://localhost:4000/2014/11/20/responsive-web-design/</guid>
-        
-        <category>知乎</category>
-        
-        <category>Web</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>「知乎」为什么阿里系软件体验都不好？</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;这篇文章转载自&lt;a href=&quot;http://www.zhihu.com/question/25657351/answer/31278511&quot;&gt;我在知乎上的回答&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;一言以蔽之，优先级。&lt;/b&gt;
-    &lt;br /&gt;这个优先级并不是由谁或者哪个Boss定的，而是&lt;b&gt;长期的市场竞争和业务需求下的结果&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;ul&gt;
-        &lt;li&gt;&lt;b&gt;为什么企鹅家的App用户体验较好？&lt;/b&gt;
-        &lt;/li&gt;
-    &lt;/ul&gt;
-    企鹅家的主力产品，QQ、微信、QQ音乐、QQ空间 等，多是IM（即时通讯）、SNS（社交网络）、数字娱乐 等形态的产品。
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;这类产品往往必须「直接依靠优秀的产品服务与用户体验」来赢得用户。&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;如果这点做不好，产品就无法在竞争中脱颖而出。这也使得在企鹅内部，&lt;b&gt;围绕这部分的要求，需求，反馈 &lt;/b&gt;&lt;b&gt;都一定最多，使得企鹅不得不把这部分做好&lt;/b&gt;。
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;ul&gt;
-        &lt;li&gt;&lt;b&gt;那为什么阿里系的App用户体验较差？&lt;/b&gt;
-        &lt;/li&gt;
-    &lt;/ul&gt;
-    阿里系的主力产品，从1688、淘宝、再到支付宝、天猫、淘宝旅行、淘点点、一淘、旺旺，要么是电商类产品，要么就是电商类的延伸产品。
-    &lt;br /&gt;
-    &lt;br /&gt;而这类产品的核心竞争力（或者说要做好的难处），往往在&lt;b&gt;「如何与实体经济，甚至政府 打交道」、&lt;/b&gt;&lt;b&gt;「如何做好运营」，&lt;/b&gt;而非优秀的用户体验。
-    &lt;br /&gt;
-    &lt;br /&gt;应该说，阿里从来都不是不重视用户体验，这两年更是愈发重视。但是因为身处这样的市场环境，&lt;b&gt;阿里必须先完成这些优先级更高的需求（海量的业务，运营需求）以抢占市场，&lt;/b&gt;
-    &lt;br /&gt;这才导致阿里内部无法有太多精力focus到客户端体验上。
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;上面就算基本回答了题主的问题，
-    &lt;br /&gt;不过，知乎惯例，多说几句：
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;其实，上面的答案，也可以说这都是说辞。&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;在我刚刚加入阿里的时候，我也一度纳闷甚至郁闷这个事。直到我开始接触更多的项目，我才能逐渐理解「为什么会这样」。
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;但是，这并不足以成为借口。&lt;/b&gt;
-    &lt;br /&gt;&lt;b&gt;该不该改？ 当然该改。&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;我相信几乎所有阿里人，尤其UED，肯定都不希望这样。
-    &lt;br /&gt;只能说，这需要阿里投入更多的人、更多的时间、更多的努力来做好
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;以上。
-    &lt;br /&gt;
-    &lt;br /&gt;利益相关：
-    &lt;br /&gt;阿里员工
-    &lt;br /&gt;
-    &lt;br /&gt;
-&lt;/div&gt;
-
-</description>
-        <pubDate>Wed, 01 Oct 2014 20:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2014/10/01/why-alibaba-ux-sucks/</link>
-        <guid isPermaLink="true">http://localhost:4000/2014/10/01/why-alibaba-ux-sucks/</guid>
-        
-        <category>知乎</category>
-        
-        <category>产品</category>
-        
-        <category>阿里</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>「知乎」对中国用户而言，Pure Android 是否比 MIUI 或 Flyme 体验更好？</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;这篇文章转载自&lt;a href=&quot;http://www.zhihu.com/question/25104721/answer/30108886&quot;&gt;我在知乎上的回答&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;哎呀～不要站队嘛。其实这是一个很有意思的题目，让我们一点点来看
-    &lt;br /&gt;
-    &lt;br /&gt;哦对，谢妖～。本人是Nexus 5用户，系统当然是Pure Android KitKat啦（臭谷粉！点Down！喂喂喂我还没给结论呢）
-    &lt;br /&gt;&lt;b&gt;毕竟是回答问题嘛，先给一个明确的答案&lt;/b&gt;：
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;否。（&lt;/b&gt;&lt;b&gt;对中国用户而言，Pure Android 并不比 MIUI 或 Flyme 体验更好。&lt;/b&gt;&lt;b&gt;）&lt;/b&gt;
-    
-    &lt;p&gt;从下面「 居然比关注数还多」的回答中，就可以看出大家都是急于站队的样子：&lt;/p&gt;
-    
-    &lt;ul&gt;
-        &lt;li&gt;Google Service！翻墙很轻松好吗！Geek站过来，有品味绝逼原生阿。&lt;/li&gt;
-        &lt;li&gt;没用过Pure，国内Google能用！？本地化多重要，易用果断MIUI/Flyme 啊！（咦 米粉和魅粉居然在一致对外上达成了共识）&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;br /&gt;从答案我们也可以看出，中国用户的确是一个过于复杂的群体，那这个问题怎么办？
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;数学老师教过哒，分类讨论啊！&lt;/b&gt;
-    &lt;br /&gt;（来，开始认真了。注意，我只分两类，数量非常小的Geek用户，和其余都算在内的非Geek用户）
-    &lt;br /&gt;
-    &lt;br /&gt;
-
-    &lt;p&gt;先说好理解的：&lt;/p&gt;
-    
-    &lt;ul&gt;
-        &lt;li&gt;&lt;b&gt;为什么 Geek 用户 都爱使用Pure Android？：&lt;/b&gt;
-        &lt;/li&gt;
-    &lt;/ul&gt;在国内，使用Pure Android其实是有很多障碍的：众所周知Google基本被墙死，去年还能上上的G+，Gmail 最近基本报废，回国后Google Now不开VPN永远都是Sign error或者No internet connection……那干嘛还用？
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;因为这群人是Geek呀！&lt;/b&gt;这群谷粉、安卓粉、IT科技粉、设计师、工程师们，这群充满技术情节的人儿们，为了我们的品味（逼格），挂着VPN，连着美版的Play Store，用着Android/Material Design 的 GMS，Chrome Beta，FB，Twitter，WhatsApp……就这么一路高歌的走下去了。
-    &lt;br /&gt;
-    &lt;br /&gt;你看！Action Bar ＋ Navigation Drawer 多好用！
-    &lt;br /&gt;你看！Fixed Tabs 可以滑的好吗！
-    &lt;br /&gt;你看！流畅不！ART开起来妥妥的流畅度爆iOS！
-    &lt;br /&gt;你看！原生Android 哪里会越用用卡！？你升4.4.4了吗 ？
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;哪里要担心这群人啊。&lt;/b&gt;国内买不到的Nexus，用不了GMS，这都不叫事。
-    &lt;br /&gt;
-    &lt;br /&gt;
-
-    &lt;p&gt;那么，&lt;/p&gt;
-
-    &lt;ul&gt;
-        &lt;li&gt;&lt;b&gt;为什么 非Geek 用户 不适合使用Pure Android？：&lt;/b&gt;
-        &lt;/li&gt;
-    &lt;/ul&gt;GMS的问题就不多说了，妥妥是用不了，在VPN之间切换也是麻烦。
-    &lt;br /&gt;也不说Pure Android不那么好刷到的问题（当然你可以刷CM），
-    &lt;br /&gt;我们就直接来看最核心的问题：
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;「 Pure Android 的交互设计真的比 MIUI / Flyme 好吗？」&lt;br /&gt;&lt;/b&gt;
-    &lt;br /&gt;&lt;b&gt;不见得。&lt;/b&gt;
-    &lt;br /&gt;&lt;b&gt;所谓设计，第一个要考虑的就是目标用户。&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;为什么Pure Android的交互设计让Geek觉得用户体验好？
-    &lt;br /&gt;
-    &lt;ul&gt;
-        &lt;li&gt;国外规范的 Android Design 生态环境打造统一的 Pure Android 体验&lt;/li&gt;
-        &lt;li&gt;更高级的手势/App运用带来了很多便利（典型的例子SwipePad）&lt;/li&gt;
-        &lt;li&gt;有着工程师思想的他们可以轻易理解Android的复杂逻辑&lt;/li&gt;
-        &lt;li&gt;有着工程师思想的他们总能自己轻松躲开一些设计问题&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;br /&gt;而 Pure Android 之于 普通用户 呢？
-    &lt;br /&gt;&lt;b&gt;「 这些优势基本荡然无存」&lt;/b&gt;，反而，混乱的国内生态环境带来大部分中国用户对Android Design的陌生，相比iOS复杂许多的Android逻辑带来较高的学习成本……
-    &lt;br /&gt;
-    &lt;br /&gt;而MIUI/Flyme在设计方面上的本地化，主要就是出来解决这个问题的。
-    &lt;br /&gt;我们可以看到，其实MIUI/Flyme做得大部分工作，除了视觉外，就是&lt;b&gt;简化信息层级，降低交互学习成本，遮住Android系统过于复杂的部分，在易用性上向iOS靠拢&lt;/b&gt;。
-    &lt;br /&gt;
-    &lt;br /&gt;如果说在这里MIUI/Flyme还只能和Pure Android 打个平手的话……
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;MIUI 和 Flyme 的本地化还远没有完：&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;你在国内总要用国内的互联网服务吧？
-    &lt;br /&gt;&lt;b&gt;集成，&lt;/b&gt;我全给你全整合进来，打造一条龙服务
-    &lt;br /&gt;
-    &lt;ul&gt;
-        &lt;li&gt;应用商店
-            &lt;br /&gt;
-        &lt;/li&gt;
-        &lt;li&gt;云存储/云服务（自己提供或合作）
-            &lt;br /&gt;
-        &lt;/li&gt;
-        &lt;li&gt;数字娱乐消费（音乐/游戏/阅读/视频/主题/壁纸/铃声……）
-            &lt;br /&gt;
-        &lt;/li&gt;
-        &lt;li&gt;安全（小白最爱用的系统清理，陌生号码拦截……）
-            &lt;br /&gt;
-        &lt;/li&gt;
-        &lt;li&gt;生活服务（支付，地图，快递，订餐，打车，旅游……）
-            &lt;br /&gt;
-        &lt;/li&gt;
-        &lt;li&gt;社交（美图，快速分享……）
-            &lt;br /&gt;
-        &lt;/li&gt;
-        &lt;li&gt;太多了。总之就是你想要什么有什么，自己没有就跟大家合作呗。
-            &lt;br /&gt;
-        &lt;/li&gt;
-    &lt;/ul&gt;&lt;b&gt;不够酷？&lt;/b&gt;对大部分用户来说够酷了
-    &lt;br /&gt;
-    &lt;ul&gt;
-        &lt;li&gt;小米，平板，盒子，电视，路由……MIUI的多屏体验&lt;/li&gt;
-        &lt;li&gt;魅族，联合智能硬件，手表飞机插座……Connect to Meizu&lt;/li&gt;
-    &lt;/ul&gt;&lt;b&gt;渠道成本低（不是指价格）&lt;/b&gt;。这个其实也相当重要
-    &lt;br /&gt;
-    &lt;ul&gt;
-        &lt;li&gt;容易刷到，适配机子广，稳定。&lt;/li&gt;
-        &lt;li&gt;国内买得到，线下甚至有体验店，可以教你用呀什么的。&lt;/li&gt;
-    &lt;/ul&gt;
-    &lt;br /&gt;更何况，对于大部分非Geek用户，手机虽不再只是当年的通讯工具那么简单，但充其量也就是一个智能电子设备而已。&lt;b&gt;能方便快速的享受到国内主流的互联网应用与服务，完成日常的需求就足以&lt;/b&gt;。
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;MIUI/Flyme 在这方面上的成绩，是Pure Android远不能比的。&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;所以我的结论是：
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;对中国用户而言，Pure Android 并不比 MIUI 或 Flyme 体验更好。&lt;/b&gt;
-    &lt;br /&gt;&lt;b&gt;对大部分中国用户而言，MIUI 或 Flyme 比 &lt;/b&gt;&lt;b&gt;Pure Android 的&lt;/b&gt;&lt;b&gt;体验更好。&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;没啥利益相关，我又不是云OS的
-&lt;/p&gt;
-</description>
-        <pubDate>Thu, 04 Sep 2014 20:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2014/09/04/is-pure-android-better/</link>
-        <guid isPermaLink="true">http://localhost:4000/2014/09/04/is-pure-android-better/</guid>
-        
-        <category>知乎</category>
-        
-        <category>产品</category>
-        
-        <category>UX/UI</category>
-        
-        
-      </item>
-    
-      <item>
-        <title>「知乎」如何评价 MIUI 6？</title>
-        <description>&lt;blockquote&gt;
-  &lt;p&gt;这篇文章转载自&lt;a href=&quot;http://www.zhihu.com/question/24783844/answer/29286896&quot;&gt;我在知乎上的回答&lt;/a&gt;&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;div&gt;
-    &lt;blockquote&gt;MIUI 6，充满了“借鉴”，iOS 7 版的 Android……
-        &lt;br /&gt;米 4，碉堡了，不服跑个分，简直就是 iPhone 4……&lt;/blockquote&gt;你们说得这些我一点都不反对。
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;可是，你们对小米的要求太高了&lt;/b&gt;。
-    &lt;br /&gt;
-    &lt;br /&gt;其实小米说到底也不过是一个才初创4年的公司而已，
-    &lt;br /&gt;&lt;b&gt;你是指望小米能引领一套新的设计风格？&lt;/b&gt;
-    &lt;br /&gt;&lt;b&gt;还是指望它能在国际上体现一下我国的自主创新能力？&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;你想太多了。
-    &lt;br /&gt;
-    &lt;br /&gt;更何况，&lt;b&gt;MIUI也不是没有设计&lt;/b&gt;，它比很多国内，国际大厂的ROM好看好用太多了。
-    &lt;br /&gt;它只是没有多少新设计而已， iOS 7 的视觉，混着大部分 Android ＋ WP 的交互。也不知道是因为确实欣赏 Android 的一些交互，还是因为毕竟是基于 Android 懒得改了。
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;因为没有一个背后的设计思想在支撑，于是它就把所有自己觉得好，觉得会被认可的东西抄过来了而已。&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;这思路一点问题都没有，&lt;/b&gt;&lt;b&gt;大部分用户一定会觉得更好看了&lt;/b&gt;，国际范儿又有设计感。最多是少数圈内人士（包括我），那群也不真正买它手机用的人，在那愤愤不平而已。
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;自立门派风险太大了。&lt;/b&gt;
-    &lt;br /&gt;&lt;b&gt;MI 4 的配置 + MIUI 6，在这个价位几乎是无敌的，这就够了。&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;至于官方说的什么“糖果式”设计，那简直就是笑话。跟 Ive 的 iOS 7 或是 Material Design，Metro 所设计之设计，完全不在一个高度上。
-    &lt;br /&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;其实有的时候觉得小米很像腾讯（尤其是更早些年的腾讯）。
-    &lt;br /&gt;&lt;b&gt;其实本来也就不是什么创新者的角色，那就做借鉴和整合呗。&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;用户喜欢什么，
-    &lt;br /&gt;公司需要什么，
-    &lt;br /&gt;大众流行什么，
-    &lt;br /&gt;那我们就做呗。
-    &lt;br /&gt;
-    &lt;br /&gt;&lt;b&gt;拿下市场才是第一位的，不出错才是第一位的&lt;/b&gt;。
-    &lt;br /&gt;&lt;b&gt;先做大了才有可能去做更大的事啊&lt;/b&gt;。
-    &lt;br /&gt;
-    &lt;br /&gt;老罗再有情怀，锤子要是死了，那也就这么死了。
-    &lt;br /&gt;
-    &lt;br /&gt;你指责小米没有多少创新，或是腾讯老是山寨 start up ，我同意，我陪你愤愤不平，可是又有什么意思呢。
-    &lt;br /&gt;
-    &lt;br /&gt;它们这么做，对现有公司发展来说，
-    &lt;br /&gt;&lt;b&gt;简直是一点错都没有。&lt;/b&gt;
-    &lt;br /&gt;
-    &lt;br /&gt;
-&lt;/div&gt;
-</description>
-        <pubDate>Sat, 16 Aug 2014 20:00:00 +0800</pubDate>
-        <link>http://localhost:4000/2014/08/16/miui6/</link>
-        <guid isPermaLink="true">http://localhost:4000/2014/08/16/miui6/</guid>
-        
-        <category>知乎</category>
-        
-        <category>产品</category>
-        
-        <category>UX/UI</category>
         
         
       </item>
