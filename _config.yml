@@ -18,11 +18,11 @@ future: true
 # SNS settings
 RSS: false
 #weibo_username:     huxpro
-github_username:    nemasery
-zhihu_username:     nemasery
-Google_username:  ljh347467356
+# github_username:    nemasery
+# zhihu_username:     nemasery
+# Google_username:  ljh347467356
 #twitter_username:   huxpro
-facebook_username:  nemasery
+# facebook_username:  nemasery
 #linkedin_username:  firstname-lastname-idxxxx
 
 
